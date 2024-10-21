@@ -1,118 +1,129 @@
+.circulo-foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.circulo-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .container {
- display: flex;
+  display: flex;
 }
 
 .perfil {
- margin-right: auto; /* Espaçamento entre os perfis */
+  margin-right: auto; /* Espaçamento entre os perfis */
 }
 
 .contador {
- display: flex;
- flex-direction: column;
- align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .circulo-foto {
- width: 100px;
- height: 100px;
- border-radius: 50%;
- background-color: #ccc;
- overflow: hidden;
-
-
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  overflow: hidden;
 }
-
-
 
 body {
- background-image: url("assets/matrix.png"); /* Corrigido de "matrix.png" para url("matrix.png") */
- background-repeat: no-repeat;
- background-size: cover;
- font-family: sans-serif;
- font-size: 16px;
- color: white; /* Adicionado para definir a cor do texto como branco */
+  background-image: url("assets/matrix.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
 }
 
+header {
+  background-color: grey;
 
-   header {
+  padding: 20px;
+  text-align: center;
+}
 
-    padding: 20px;
-    text-align: center;
-   }
+.cabeçalho {
+  text-align: center;
+}
 
-  .cabeçalho{
+header h1,
+header p {
+  margin-bottom: 10px;
+}
 
-text-align: center;
+header h1 {
+  font-size: 24px;
+}
 
-  }
+header p {
+  font-size: 16px;
+  color: #777;
+}
 
-   header h1, header p {
-    margin-bottom: 10px;
-   }
+main,
+.projetos,
+.projeto {
+  padding: 20px;
+}
 
-   header h1 {
-    font-size: 24px;
-   }
+#informaçoes {
+  color: #ffffff;
+}
 
-   header p {
-    font-size: 16px;
-    color: #777;
-   }
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-   main,
-   .projetos,
-   .projeto {
-    padding: 20px;
-   }
+.projeto {
+  background-color: gray;
+  width: 300px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
 
-   .projetos {
-    display: flex;
-    flex-wrap: wrap;
-   }
+.projeto img {
+  width: 100%;
+  margin-bottom: 10px;
+}
 
-   .projeto {
-    width: 300px;
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    text-align: center;
-   }
+.projeto h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
 
-   .projeto img {
-    width: 100%;
-    margin-bottom: 10px;
-   }
+.projeto p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
 
-   .projeto h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
-   }
+.projeto a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
 
-   .projeto p {
-    font-size: 14px;
-    color: #777;
-    margin-bottom: 10px;
-   }
+h2 {
+  background-color: #777;
+}
 
-   .projeto a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-   }
+.habilidades,
+.contato {
+  background-color: #777;
+}
 
-   .circulo-foto {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #ccc;
-    margin: 20px auto;
-    overflow: hidden;
-   }
-
-   .circulo-foto img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-   }
-
-   
+footer {
+  background-color: #777;
+}
